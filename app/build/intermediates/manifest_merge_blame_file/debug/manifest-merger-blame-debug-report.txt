@@ -1,0 +1,116 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3  Copyright 2022 Google LLC
+4  Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except
+5  in compliance with the License. You may obtain a copy of the License at
+6  http://www.apache.org/licenses/LICENSE-2.0
+7  Unless required by applicable law or agreed to in writing, software distributed under the License
+8  is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express
+9  or implied. See the License for the specific language governing permissions and limitations under
+10  the License.
+11-->
+12<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+13    package="com.example.hellofigma"
+14    android:versionCode="1"
+15    android:versionName="1.0" >
+16
+17    <uses-sdk
+18        android:minSdkVersion="21"
+18-->C:\Users\Hamid\Downloads\HelloFigma\app\src\main\AndroidManifest.xml
+19        android:targetSdkVersion="32" />
+19-->C:\Users\Hamid\Downloads\HelloFigma\app\src\main\AndroidManifest.xml
+20
+21    <application
+21-->C:\Users\Hamid\Downloads\HelloFigma\app\src\main\AndroidManifest.xml:16:5-37:19
+22        android:allowBackup="true"
+22-->C:\Users\Hamid\Downloads\HelloFigma\app\src\main\AndroidManifest.xml:17:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.7.0] C:\Users\Hamid\.gradle\caches\transforms-3\82b9e16ff3d1fdf65142f0deb3f6b395\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+24        android:dataExtractionRules="@xml/data_extraction_rules"
+24-->C:\Users\Hamid\Downloads\HelloFigma\app\src\main\AndroidManifest.xml:18:9-65
+25        android:debuggable="true"
+26        android:fullBackupContent="@xml/backup_rules"
+26-->C:\Users\Hamid\Downloads\HelloFigma\app\src\main\AndroidManifest.xml:19:9-54
+27        android:icon="@mipmap/ic_launcher"
+27-->C:\Users\Hamid\Downloads\HelloFigma\app\src\main\AndroidManifest.xml:20:9-43
+28        android:label="@string/app_name"
+28-->C:\Users\Hamid\Downloads\HelloFigma\app\src\main\AndroidManifest.xml:21:9-41
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->C:\Users\Hamid\Downloads\HelloFigma\app\src\main\AndroidManifest.xml:22:9-54
+30        android:supportsRtl="true"
+30-->C:\Users\Hamid\Downloads\HelloFigma\app\src\main\AndroidManifest.xml:23:9-35
+31        android:testOnly="true"
+32        android:theme="@style/Theme.HelloFigma" >
+32-->C:\Users\Hamid\Downloads\HelloFigma\app\src\main\AndroidManifest.xml:24:9-48
+33        <activity
+33-->C:\Users\Hamid\Downloads\HelloFigma\app\src\main\AndroidManifest.xml:26:9-36:20
+34            android:name="com.example.hellofigma.MainActivity"
+34-->C:\Users\Hamid\Downloads\HelloFigma\app\src\main\AndroidManifest.xml:27:13-41
+35            android:exported="true"
+35-->C:\Users\Hamid\Downloads\HelloFigma\app\src\main\AndroidManifest.xml:28:13-36
+36            android:label="@string/app_name"
+36-->C:\Users\Hamid\Downloads\HelloFigma\app\src\main\AndroidManifest.xml:29:13-45
+37            android:theme="@style/Theme.HelloFigma" >
+37-->C:\Users\Hamid\Downloads\HelloFigma\app\src\main\AndroidManifest.xml:30:13-52
+38            <intent-filter>
+38-->C:\Users\Hamid\Downloads\HelloFigma\app\src\main\AndroidManifest.xml:31:13-35:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->C:\Users\Hamid\Downloads\HelloFigma\app\src\main\AndroidManifest.xml:32:17-69
+39-->C:\Users\Hamid\Downloads\HelloFigma\app\src\main\AndroidManifest.xml:32:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->C:\Users\Hamid\Downloads\HelloFigma\app\src\main\AndroidManifest.xml:34:17-77
+41-->C:\Users\Hamid\Downloads\HelloFigma\app\src\main\AndroidManifest.xml:34:27-74
+42            </intent-filter>
+43        </activity>
+44        <activity
+44-->[androidx.compose.ui:ui-tooling:1.1.0-beta01] C:\Users\Hamid\.gradle\caches\transforms-3\385fd5c1bf29261ad0603b4435334581\transformed\ui-tooling-1.1.0-beta01\AndroidManifest.xml:25:9-27:39
+45            android:name="androidx.compose.ui.tooling.PreviewActivity"
+45-->[androidx.compose.ui:ui-tooling:1.1.0-beta01] C:\Users\Hamid\.gradle\caches\transforms-3\385fd5c1bf29261ad0603b4435334581\transformed\ui-tooling-1.1.0-beta01\AndroidManifest.xml:26:13-71
+46            android:exported="true" />
+46-->[androidx.compose.ui:ui-tooling:1.1.0-beta01] C:\Users\Hamid\.gradle\caches\transforms-3\385fd5c1bf29261ad0603b4435334581\transformed\ui-tooling-1.1.0-beta01\AndroidManifest.xml:27:13-36
+47        <activity
+47-->[androidx.compose.ui:ui-test-manifest:1.1.0-beta01] C:\Users\Hamid\.gradle\caches\transforms-3\7305440247432c3166e67f5b8bb7fdad\transformed\ui-test-manifest-1.1.0-beta01\AndroidManifest.xml:25:9-27:39
+48            android:name="androidx.activity.ComponentActivity"
+48-->[androidx.compose.ui:ui-test-manifest:1.1.0-beta01] C:\Users\Hamid\.gradle\caches\transforms-3\7305440247432c3166e67f5b8bb7fdad\transformed\ui-test-manifest-1.1.0-beta01\AndroidManifest.xml:26:13-63
+49            android:exported="true" />
+49-->[androidx.compose.ui:ui-test-manifest:1.1.0-beta01] C:\Users\Hamid\.gradle\caches\transforms-3\7305440247432c3166e67f5b8bb7fdad\transformed\ui-test-manifest-1.1.0-beta01\AndroidManifest.xml:27:13-36
+50
+51        <provider
+51-->[androidx.profileinstaller:profileinstaller:1.1.0-beta01] C:\Users\Hamid\.gradle\caches\transforms-3\bba4dd70b1a8edf1dafbb430477cdb5c\transformed\profileinstaller-1.1.0-beta01\AndroidManifest.xml:26:9-34:20
+52            android:name="androidx.startup.InitializationProvider"
+52-->[androidx.profileinstaller:profileinstaller:1.1.0-beta01] C:\Users\Hamid\.gradle\caches\transforms-3\bba4dd70b1a8edf1dafbb430477cdb5c\transformed\profileinstaller-1.1.0-beta01\AndroidManifest.xml:27:13-67
+53            android:authorities="com.example.hellofigma.androidx-startup"
+53-->[androidx.profileinstaller:profileinstaller:1.1.0-beta01] C:\Users\Hamid\.gradle\caches\transforms-3\bba4dd70b1a8edf1dafbb430477cdb5c\transformed\profileinstaller-1.1.0-beta01\AndroidManifest.xml:28:13-68
+54            android:exported="false" >
+54-->[androidx.profileinstaller:profileinstaller:1.1.0-beta01] C:\Users\Hamid\.gradle\caches\transforms-3\bba4dd70b1a8edf1dafbb430477cdb5c\transformed\profileinstaller-1.1.0-beta01\AndroidManifest.xml:29:13-37
+55            <meta-data
+55-->[androidx.profileinstaller:profileinstaller:1.1.0-beta01] C:\Users\Hamid\.gradle\caches\transforms-3\bba4dd70b1a8edf1dafbb430477cdb5c\transformed\profileinstaller-1.1.0-beta01\AndroidManifest.xml:31:13-33:52
+56                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+56-->[androidx.profileinstaller:profileinstaller:1.1.0-beta01] C:\Users\Hamid\.gradle\caches\transforms-3\bba4dd70b1a8edf1dafbb430477cdb5c\transformed\profileinstaller-1.1.0-beta01\AndroidManifest.xml:32:17-85
+57                android:value="androidx.startup" />
+57-->[androidx.profileinstaller:profileinstaller:1.1.0-beta01] C:\Users\Hamid\.gradle\caches\transforms-3\bba4dd70b1a8edf1dafbb430477cdb5c\transformed\profileinstaller-1.1.0-beta01\AndroidManifest.xml:33:17-49
+58        </provider>
+59
+60        <receiver
+60-->[androidx.profileinstaller:profileinstaller:1.1.0-beta01] C:\Users\Hamid\.gradle\caches\transforms-3\bba4dd70b1a8edf1dafbb430477cdb5c\transformed\profileinstaller-1.1.0-beta01\AndroidManifest.xml:36:9-45:20
+61            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+61-->[androidx.profileinstaller:profileinstaller:1.1.0-beta01] C:\Users\Hamid\.gradle\caches\transforms-3\bba4dd70b1a8edf1dafbb430477cdb5c\transformed\profileinstaller-1.1.0-beta01\AndroidManifest.xml:37:13-76
+62            android:directBootAware="false"
+62-->[androidx.profileinstaller:profileinstaller:1.1.0-beta01] C:\Users\Hamid\.gradle\caches\transforms-3\bba4dd70b1a8edf1dafbb430477cdb5c\transformed\profileinstaller-1.1.0-beta01\AndroidManifest.xml:38:13-44
+63            android:enabled="true"
+63-->[androidx.profileinstaller:profileinstaller:1.1.0-beta01] C:\Users\Hamid\.gradle\caches\transforms-3\bba4dd70b1a8edf1dafbb430477cdb5c\transformed\profileinstaller-1.1.0-beta01\AndroidManifest.xml:39:13-35
+64            android:exported="true"
+64-->[androidx.profileinstaller:profileinstaller:1.1.0-beta01] C:\Users\Hamid\.gradle\caches\transforms-3\bba4dd70b1a8edf1dafbb430477cdb5c\transformed\profileinstaller-1.1.0-beta01\AndroidManifest.xml:40:13-36
+65            android:permission="android.permission.DUMP" >
+65-->[androidx.profileinstaller:profileinstaller:1.1.0-beta01] C:\Users\Hamid\.gradle\caches\transforms-3\bba4dd70b1a8edf1dafbb430477cdb5c\transformed\profileinstaller-1.1.0-beta01\AndroidManifest.xml:41:13-57
+66            <intent-filter>
+66-->[androidx.profileinstaller:profileinstaller:1.1.0-beta01] C:\Users\Hamid\.gradle\caches\transforms-3\bba4dd70b1a8edf1dafbb430477cdb5c\transformed\profileinstaller-1.1.0-beta01\AndroidManifest.xml:42:13-44:29
+67                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+67-->[androidx.profileinstaller:profileinstaller:1.1.0-beta01] C:\Users\Hamid\.gradle\caches\transforms-3\bba4dd70b1a8edf1dafbb430477cdb5c\transformed\profileinstaller-1.1.0-beta01\AndroidManifest.xml:43:17-91
+67-->[androidx.profileinstaller:profileinstaller:1.1.0-beta01] C:\Users\Hamid\.gradle\caches\transforms-3\bba4dd70b1a8edf1dafbb430477cdb5c\transformed\profileinstaller-1.1.0-beta01\AndroidManifest.xml:43:25-88
+68            </intent-filter>
+69        </receiver>
+70    </application>
+71
+72</manifest>
