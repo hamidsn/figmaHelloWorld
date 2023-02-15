@@ -1,0 +1,3062 @@
+{
+  "name": "image_left",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "7KHbw8hJLo7ATob46lsWSd",
+    "node": "66:2483",
+    "version": "2670391315"
+  },
+  "default": "Platform= iOS, State=Partial load",
+  "documentation": "First time bilah bilah\n",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "Spacer"
+      },
+      {
+        "type": "group",
+        "id": "Content"
+      },
+      {
+        "type": "group",
+        "id": "Spacer1"
+      },
+      {
+        "type": "text",
+        "id": "16"
+      },
+      {
+        "type": "group",
+        "id": "Shimmer"
+      },
+      {
+        "type": "group",
+        "id": "Card details"
+      },
+      {
+        "type": "vector",
+        "id": "Background"
+      },
+      {
+        "type": "group",
+        "id": "Basics / Body Normal"
+      },
+      {
+        "type": "group",
+        "id": "Spacer2"
+      },
+      {
+        "type": "group",
+        "id": "Basics / Body xSmall"
+      },
+      {
+        "type": "text",
+        "id": "Body Normal"
+      },
+      {
+        "type": "vector",
+        "id": "Vertical Spacer 4"
+      },
+      {
+        "type": "text",
+        "id": "Body xSmall"
+      },
+      {
+        "type": "text",
+        "id": "16_1"
+      },
+      {
+        "type": "group",
+        "id": "Image ID"
+      },
+      {
+        "type": "group",
+        "id": "Card Details"
+      },
+      {
+        "type": "group",
+        "id": "Card Art / Consumer"
+      },
+      {
+        "type": "image",
+        "id": "Altitude Black MC"
+      },
+      {
+        "type": "group",
+        "id": "Shimmer1"
+      },
+      {
+        "type": "group",
+        "id": "Auto Layout"
+      },
+      {
+        "type": "group",
+        "id": "_Ω Resource / Base"
+      },
+      {
+        "type": "group",
+        "id": "_Ω Resource / Base1"
+      },
+      {
+        "type": "vector",
+        "id": "Skeleton / Small"
+      },
+      {
+        "type": "vector",
+        "id": "Skeleton / Small1"
+      },
+      {
+        "type": "text",
+        "id": "16_2"
+      },
+      {
+        "type": "group",
+        "id": "Image"
+      },
+      {
+        "type": "group",
+        "id": "WBC / Westpac"
+      }
+    ],
+    "modes": {
+      "Platform= iOS, State=Partial load": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": "3.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "stroke-width": "0.5",
+            "stroke-color": {
+              "alpha": "1.0",
+              "hue": "240.0",
+              "saturation": "0.013333333333333286",
+              "value": "0.8823529411764706"
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Spacer",
+              "Content",
+              "Spacer1"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "Spacer",
+            "opacity": "0.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "16.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "16"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "180.0",
+              "saturation": "1.0",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "Content",
+            "padding": {
+              "left": "16.0",
+              "right": "16.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "Shimmer",
+              "Card details"
+            ],
+            "item-spacing": "16.0"
+          },
+          {
+            "id": "Spacer1",
+            "opacity": "0.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "16.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "16_1"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "180.0",
+              "saturation": "1.0",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "16",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.5"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "16",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "11.0",
+            "letter-spacing": "0.07000000029802322",
+            "line-height": "1.181818161010742",
+            "typeface": "SF Pro Text"
+          },
+          {
+            "id": "Shimmer",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "64.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Background"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Card details",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Basics / Body Normal",
+              "Spacer2",
+              "Basics / Body xSmall"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "Background",
+            "border-radius": "8.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "background.svg"
+          },
+          {
+            "id": "Basics / Body Normal",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Body Normal"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Spacer2",
+            "opacity": "0.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "4.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Vertical Spacer 4"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "180.0",
+              "saturation": "1.0",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "Basics / Body xSmall",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Body xSmall"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Body Normal",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "226.15384615384616",
+              "saturation": "0.3513513513513514",
+              "value": "0.1450980392156863"
+            },
+            "text-content": "Altitude Black World Mastercard®",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "17.0",
+            "letter-spacing": "-0.06969999939203263",
+            "line-height": "1.193359375",
+            "typeface": "SF Pro Text"
+          },
+          {
+            "id": "Vertical Spacer 4",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            }
+          },
+          {
+            "id": "Body xSmall",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "247.5",
+              "saturation": "0.1553398058252427",
+              "value": "0.403921568627451"
+            },
+            "text-content": "Card ending ...1234",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "13.0",
+            "letter-spacing": "-0.010399999767541886",
+            "line-height": "1.193359375",
+            "typeface": "SF Pro Text"
+          },
+          {
+            "id": "16_1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.5"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "16",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "11.0",
+            "letter-spacing": "0.07000000029802322",
+            "line-height": "1.181818161010742",
+            "typeface": "SF Pro Text"
+          }
+        ]
+      },
+      "Platform= iOS, State=Normal": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": "3.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "stroke-width": "0.5",
+            "stroke-color": {
+              "alpha": "1.0",
+              "hue": "240.0",
+              "saturation": "0.013333333333333286",
+              "value": "0.8823529411764706"
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Spacer",
+              "Content",
+              "Spacer1"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "Spacer",
+            "opacity": "0.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "16.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "16"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "180.0",
+              "saturation": "1.0",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "Content",
+            "padding": {
+              "left": "16.0",
+              "right": "16.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "Image ID",
+              "Card Details"
+            ],
+            "item-spacing": "16.0"
+          },
+          {
+            "id": "Spacer1",
+            "opacity": "0.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "16.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "16_1"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "180.0",
+              "saturation": "1.0",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "16",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.5"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "16",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "11.0",
+            "letter-spacing": "0.07000000029802322",
+            "line-height": "1.181818161010742",
+            "typeface": "SF Pro Text"
+          },
+          {
+            "id": "Image ID",
+            "border-radius": "3.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "64.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Card Art / Consumer"
+            ]
+          },
+          {
+            "id": "Card Details",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Basics / Body Normal",
+              "Spacer2",
+              "Basics / Body xSmall"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "Card Art / Consumer",
+            "is-structured": "false",
+            "children": [
+              "Altitude Black MC"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Altitude Black MC",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "stroke-alignment": "center",
+            "image-content": "altitude_black_mc.png",
+            "scale": "fill"
+          },
+          {
+            "id": "Basics / Body Normal",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Body Normal"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Spacer2",
+            "opacity": "0.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "4.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Vertical Spacer 4"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "180.0",
+              "saturation": "1.0",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "Basics / Body xSmall",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Body xSmall"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Body Normal",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "226.15384615384616",
+              "saturation": "0.3513513513513514",
+              "value": "0.1450980392156863"
+            },
+            "text-content": "Altitude Black World Mastercard®",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "17.0",
+            "letter-spacing": "-0.06969999939203263",
+            "line-height": "1.193359375",
+            "typeface": "SF Pro Text"
+          },
+          {
+            "id": "Vertical Spacer 4",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            }
+          },
+          {
+            "id": "Body xSmall",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "247.5",
+              "saturation": "0.1553398058252427",
+              "value": "0.403921568627451"
+            },
+            "text-content": "Card ending ...1234",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "13.0",
+            "letter-spacing": "-0.010399999767541886",
+            "line-height": "1.193359375",
+            "typeface": "SF Pro Text"
+          },
+          {
+            "id": "16_1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.5"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "16",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "11.0",
+            "letter-spacing": "0.07000000029802322",
+            "line-height": "1.181818161010742",
+            "typeface": "SF Pro Text"
+          }
+        ]
+      },
+      "Platform= iOS, State=Loading": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": {
+              "left": "16.0",
+              "right": "16.0"
+            },
+            "border-radius": "3.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "stroke-width": "0.5",
+            "stroke-color": {
+              "alpha": "1.0",
+              "hue": "240.0",
+              "saturation": "0.013333333333333286",
+              "value": "0.8823529411764706"
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "Shimmer",
+              "Shimmer1"
+            ],
+            "item-spacing": "16.0",
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "Shimmer",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "64.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Background"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Shimmer1",
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Spacer",
+              "Auto Layout",
+              "Spacer1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Background",
+            "border-radius": "8.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "background1.svg"
+          },
+          {
+            "id": "Spacer",
+            "opacity": "0.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "16.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "16"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "180.0",
+              "saturation": "1.0",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "Auto Layout",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "_Ω Resource / Base",
+              "Spacer2",
+              "_Ω Resource / Base1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Spacer1",
+            "opacity": "0.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "16.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "16_2"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "180.0",
+              "saturation": "1.0",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "16",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-72.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.5"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "16",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "11.0",
+            "letter-spacing": "0.07000000029802322",
+            "line-height": "1.181818161010742",
+            "typeface": "SF Pro Text"
+          },
+          {
+            "id": "_Ω Resource / Base",
+            "margin": {
+              "bottom": "32.0"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "231.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "stroke-alignment": "center",
+            "is-structured": "false",
+            "children": [
+              "Skeleton / Small"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Spacer2",
+            "opacity": "0.0",
+            "margin": {
+              "top": "16.0",
+              "bottom": "16.0"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "231.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "16_1"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "180.0",
+              "saturation": "1.0",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "_Ω Resource / Base1",
+            "margin": {
+              "top": "32.0"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-75.09182739257812"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "80.81634521484375"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "stroke-alignment": "center",
+            "is-structured": "false",
+            "children": [
+              "Skeleton / Small1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Skeleton / Small",
+            "border-radius": "3.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "skeleton_small.svg"
+          },
+          {
+            "id": "16_1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-72.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.5"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "16",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "11.0",
+            "letter-spacing": "0.07000000029802322",
+            "line-height": "1.181818161010742",
+            "typeface": "SF Pro Text"
+          },
+          {
+            "id": "Skeleton / Small1",
+            "border-radius": "3.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "skeleton_small1.svg"
+          },
+          {
+            "id": "16_2",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-72.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.5"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "16",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "11.0",
+            "letter-spacing": "0.07000000029802322",
+            "line-height": "1.181818161010742",
+            "typeface": "SF Pro Text"
+          }
+        ]
+      },
+      "Platform= iOS, State=Partial failure": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": "3.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "stroke-width": "0.5",
+            "stroke-color": {
+              "alpha": "1.0",
+              "hue": "240.0",
+              "saturation": "0.013333333333333286",
+              "value": "0.8823529411764706"
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Spacer",
+              "Content",
+              "Spacer1"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "Spacer",
+            "opacity": "0.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "16.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "16"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "180.0",
+              "saturation": "1.0",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "Content",
+            "padding": {
+              "left": "16.0",
+              "right": "16.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "Image ID",
+              "Card details"
+            ],
+            "item-spacing": "16.0"
+          },
+          {
+            "id": "Spacer1",
+            "opacity": "0.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "16.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "16_1"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "180.0",
+              "saturation": "1.0",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "16",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.5"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "16",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "11.0",
+            "letter-spacing": "0.07000000029802322",
+            "line-height": "1.181818161010742",
+            "typeface": "SF Pro Text"
+          },
+          {
+            "id": "Image ID",
+            "border-radius": "3.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "64.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Image"
+            ]
+          },
+          {
+            "id": "Card details",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Basics / Body Normal",
+              "Spacer2",
+              "Basics / Body xSmall"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "Image",
+            "border-radius": "2.0",
+            "is-structured": "false",
+            "children": [
+              "WBC / Westpac"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "240.0",
+              "saturation": "0.007968127490039813",
+              "value": "0.984313725490196"
+            }
+          },
+          {
+            "id": "WBC / Westpac",
+            "margin": {
+              "left": "48.0",
+              "top": "4.155853271484375",
+              "right": "4.19671630859375",
+              "bottom": "31.1688232421875"
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "item-spacing": "8.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Basics / Body Normal",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Body Normal"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Spacer2",
+            "opacity": "0.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "4.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Vertical Spacer 4"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "180.0",
+              "saturation": "1.0",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "Basics / Body xSmall",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Body xSmall"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Body Normal",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "226.15384615384616",
+              "saturation": "0.3513513513513514",
+              "value": "0.1450980392156863"
+            },
+            "text-content": "Altitude Black World Mastercard®",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "17.0",
+            "letter-spacing": "-0.06969999939203263",
+            "line-height": "1.193359375",
+            "typeface": "SF Pro Text"
+          },
+          {
+            "id": "Vertical Spacer 4",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            }
+          },
+          {
+            "id": "Body xSmall",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "247.5",
+              "saturation": "0.1553398058252427",
+              "value": "0.403921568627451"
+            },
+            "text-content": "Card ending ...1234",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "13.0",
+            "letter-spacing": "-0.010399999767541886",
+            "line-height": "1.193359375",
+            "typeface": "SF Pro Text"
+          },
+          {
+            "id": "16_1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.5"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "16",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "11.0",
+            "letter-spacing": "0.07000000029802322",
+            "line-height": "1.181818161010742",
+            "typeface": "SF Pro Text"
+          }
+        ]
+      },
+      "Platform=🅖 Android, State=Partial load": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": "3.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "stroke-width": "0.5",
+            "stroke-alignment": "outside",
+            "stroke-color": {
+              "alpha": "1.0",
+              "hue": "240.0",
+              "saturation": "0.013333333333333286",
+              "value": "0.8823529411764706"
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Spacer",
+              "Content",
+              "Spacer1"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "Spacer",
+            "opacity": "0.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "16.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "16"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "180.0",
+              "saturation": "1.0",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "Content",
+            "padding": {
+              "left": "16.0",
+              "right": "16.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "Shimmer",
+              "Card details"
+            ],
+            "item-spacing": "16.0"
+          },
+          {
+            "id": "Spacer1",
+            "opacity": "0.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "16.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "16_1"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "180.0",
+              "saturation": "1.0",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "16",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.5"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "16",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "11.0",
+            "letter-spacing": "0.07000000029802322",
+            "line-height": "1.181818161010742",
+            "typeface": "SF Pro Text"
+          },
+          {
+            "id": "Shimmer",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "64.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Background"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Card details",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Basics / Body Normal",
+              "Spacer2",
+              "Basics / Body xSmall"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Background",
+            "border-radius": "8.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "background2.svg"
+          },
+          {
+            "id": "Basics / Body Normal",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Body Normal"
+            ],
+            "item-spacing": "8.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Spacer2",
+            "opacity": "0.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "4.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Vertical Spacer 4"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "180.0",
+              "saturation": "1.0",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "Basics / Body xSmall",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Body xSmall"
+            ],
+            "item-spacing": "8.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Body Normal",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "226.15384615384616",
+              "saturation": "0.3513513513513514",
+              "value": "0.1450980392156863"
+            },
+            "text-content": "Altitude Black World Mastercard®",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "16.0",
+            "letter-spacing": "0.08",
+            "line-height": "1.171875"
+          },
+          {
+            "id": "Vertical Spacer 4",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            }
+          },
+          {
+            "id": "Body xSmall",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "247.5",
+              "saturation": "0.1553398058252427",
+              "value": "0.403921568627451"
+            },
+            "text-content": "Card ending ...1234",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "12.0",
+            "letter-spacing": "0.012000000178813936",
+            "line-height": "1.171875"
+          },
+          {
+            "id": "16_1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.5"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "16",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "11.0",
+            "letter-spacing": "0.07000000029802322",
+            "line-height": "1.181818161010742",
+            "typeface": "SF Pro Text"
+          }
+        ]
+      },
+      "Platform=🅖 Android, State=Normal": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": "3.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "stroke-width": "0.5",
+            "stroke-color": {
+              "alpha": "1.0",
+              "hue": "240.0",
+              "saturation": "0.013333333333333286",
+              "value": "0.8823529411764706"
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Spacer",
+              "Content",
+              "Spacer1"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "Spacer",
+            "opacity": "0.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "16.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "16"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "180.0",
+              "saturation": "1.0",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "Content",
+            "padding": {
+              "left": "16.0",
+              "right": "16.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "Image ID",
+              "Card Details"
+            ],
+            "item-spacing": "16.0"
+          },
+          {
+            "id": "Spacer1",
+            "opacity": "0.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "16.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "16_1"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "180.0",
+              "saturation": "1.0",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "16",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.5"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "16",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "11.0",
+            "letter-spacing": "0.07000000029802322",
+            "line-height": "1.181818161010742",
+            "typeface": "SF Pro Text"
+          },
+          {
+            "id": "Image ID",
+            "border-radius": "3.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "64.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Card Art / Consumer"
+            ]
+          },
+          {
+            "id": "Card Details",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Basics / Body Normal",
+              "Spacer2",
+              "Basics / Body xSmall"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "Card Art / Consumer",
+            "is-structured": "false",
+            "children": [
+              "Altitude Black MC"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Altitude Black MC",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "stroke-alignment": "center",
+            "image-content": "altitude_black_mc.png",
+            "scale": "fill"
+          },
+          {
+            "id": "Basics / Body Normal",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Body Normal"
+            ],
+            "item-spacing": "8.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Spacer2",
+            "opacity": "0.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "4.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Vertical Spacer 4"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "180.0",
+              "saturation": "1.0",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "Basics / Body xSmall",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Body xSmall"
+            ],
+            "item-spacing": "8.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Body Normal",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "226.15384615384616",
+              "saturation": "0.3513513513513514",
+              "value": "0.1450980392156863"
+            },
+            "text-content": "Altitude Black World Mastercard®",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "16.0",
+            "letter-spacing": "0.08",
+            "line-height": "1.171875"
+          },
+          {
+            "id": "Vertical Spacer 4",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            }
+          },
+          {
+            "id": "Body xSmall",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "247.5",
+              "saturation": "0.1553398058252427",
+              "value": "0.403921568627451"
+            },
+            "text-content": "Card ending ...1234",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "12.0",
+            "letter-spacing": "0.012000000178813936",
+            "line-height": "1.171875"
+          },
+          {
+            "id": "16_1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.5"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "16",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "11.0",
+            "letter-spacing": "0.07000000029802322",
+            "line-height": "1.181818161010742",
+            "typeface": "SF Pro Text"
+          }
+        ]
+      },
+      "Platform=🅖 Android, State=Loading": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": {
+              "left": "16.0",
+              "right": "16.0"
+            },
+            "border-radius": "3.0",
+            "stroke-width": "0.5",
+            "stroke-alignment": "outside",
+            "stroke-color": {
+              "alpha": "1.0",
+              "hue": "240.0",
+              "saturation": "0.013333333333333286",
+              "value": "0.8823529411764706"
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "Shimmer",
+              "Shimmer1"
+            ],
+            "item-spacing": "16.0",
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "Shimmer",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "64.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Background"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Shimmer1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Spacer",
+              "Auto Layout",
+              "Spacer1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Background",
+            "border-radius": "8.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "background3.svg"
+          },
+          {
+            "id": "Spacer",
+            "opacity": "0.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "16.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "16"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "180.0",
+              "saturation": "1.0",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "Auto Layout",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "_Ω Resource / Base",
+              "Spacer2",
+              "_Ω Resource / Base1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Spacer1",
+            "opacity": "0.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "16.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "16_2"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "180.0",
+              "saturation": "1.0",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "16",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-54.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.5"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "16",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "11.0",
+            "letter-spacing": "0.07000000029802322",
+            "line-height": "1.181818161010742",
+            "typeface": "SF Pro Text"
+          },
+          {
+            "id": "_Ω Resource / Base",
+            "margin": {
+              "bottom": "32.0"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "267.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "stroke-alignment": "center",
+            "is-structured": "false",
+            "children": [
+              "Skeleton / Small"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Spacer2",
+            "opacity": "0.0",
+            "margin": {
+              "top": "16.0",
+              "bottom": "16.0"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "267.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "16_1"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "180.0",
+              "saturation": "1.0",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "_Ω Resource / Base1",
+            "margin": {
+              "top": "32.0"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-86.79446411132812"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "93.41107177734375"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "stroke-alignment": "center",
+            "is-structured": "false",
+            "children": [
+              "Skeleton / Small1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Skeleton / Small",
+            "border-radius": "3.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "skeleton_small2.svg"
+          },
+          {
+            "id": "16_1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-54.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.5"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "16",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "11.0",
+            "letter-spacing": "0.07000000029802322",
+            "line-height": "1.181818161010742",
+            "typeface": "SF Pro Text"
+          },
+          {
+            "id": "Skeleton / Small1",
+            "border-radius": "3.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "skeleton_small3.svg"
+          },
+          {
+            "id": "16_2",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-54.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.5"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "16",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "11.0",
+            "letter-spacing": "0.07000000029802322",
+            "line-height": "1.181818161010742",
+            "typeface": "SF Pro Text"
+          }
+        ]
+      },
+      "Platform=🅖 Android, State=Partial failure": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": "3.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "stroke-width": "0.5",
+            "stroke-color": {
+              "alpha": "1.0",
+              "hue": "240.0",
+              "saturation": "0.013333333333333286",
+              "value": "0.8823529411764706"
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Spacer",
+              "Content",
+              "Spacer1"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "Spacer",
+            "opacity": "0.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "18.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "16"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "180.0",
+              "saturation": "1.0",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "Content",
+            "padding": {
+              "left": "16.0",
+              "right": "16.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "Image ID",
+              "Card details"
+            ],
+            "item-spacing": "16.0"
+          },
+          {
+            "id": "Spacer1",
+            "opacity": "0.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "18.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "16_1"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "180.0",
+              "saturation": "1.0",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "16",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.5"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "16",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "11.0",
+            "letter-spacing": "0.07000000029802322",
+            "line-height": "1.181818161010742",
+            "typeface": "SF Pro Text"
+          },
+          {
+            "id": "Image ID",
+            "border-radius": "3.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "64.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Image"
+            ]
+          },
+          {
+            "id": "Card details",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Basics / Body Normal",
+              "Spacer2",
+              "Basics / Body xSmall"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "Image",
+            "border-radius": "2.0",
+            "is-structured": "false",
+            "children": [
+              "WBC / Westpac"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "240.0",
+              "saturation": "0.007968127490039813",
+              "value": "0.984313725490196"
+            }
+          },
+          {
+            "id": "WBC / Westpac",
+            "margin": {
+              "left": "48.0",
+              "top": "4.155853271484375",
+              "right": "4.19671630859375",
+              "bottom": "31.1688232421875"
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "item-spacing": "8.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Basics / Body Normal",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Body Normal"
+            ],
+            "item-spacing": "8.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Spacer2",
+            "opacity": "0.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "4.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Vertical Spacer 4"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "180.0",
+              "saturation": "1.0",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "Basics / Body xSmall",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Body xSmall"
+            ],
+            "item-spacing": "8.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Body Normal",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "226.15384615384616",
+              "saturation": "0.3513513513513514",
+              "value": "0.1450980392156863"
+            },
+            "text-content": "Altitude Black World Mastercard®",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "16.0",
+            "letter-spacing": "0.08",
+            "line-height": "1.171875"
+          },
+          {
+            "id": "Vertical Spacer 4",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            }
+          },
+          {
+            "id": "Body xSmall",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "247.5",
+              "saturation": "0.1553398058252427",
+              "value": "0.403921568627451"
+            },
+            "text-content": "Card ending ...1234",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "12.0",
+            "letter-spacing": "0.012000000178813936",
+            "line-height": "1.171875"
+          },
+          {
+            "id": "16_1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.5"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "16",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "11.0",
+            "letter-spacing": "0.07000000029802322",
+            "line-height": "1.181818161010742",
+            "typeface": "SF Pro Text"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "Platform= iOS, State=Partial load",
+      "size": {
+        "width": 343.0,
+        "height": 92.0
+      }
+    },
+    {
+      "design": "Platform= iOS, State=Normal",
+      "size": {
+        "width": 343.0,
+        "height": 92.0
+      }
+    },
+    {
+      "design": "Platform= iOS, State=Loading",
+      "size": {
+        "width": 343.0,
+        "height": 80.0
+      }
+    },
+    {
+      "design": "Platform= iOS, State=Partial failure",
+      "size": {
+        "width": 343.0,
+        "height": 92.0
+      }
+    },
+    {
+      "design": "Platform=🅖 Android, State=Partial load",
+      "size": {
+        "width": 379.0,
+        "height": 72.0
+      }
+    },
+    {
+      "design": "Platform=🅖 Android, State=Normal",
+      "size": {
+        "width": 379.0,
+        "height": 72.0
+      }
+    },
+    {
+      "design": "Platform=🅖 Android, State=Loading",
+      "size": {
+        "width": 379.0,
+        "height": 80.0
+      }
+    },
+    {
+      "design": "Platform=🅖 Android, State=Partial failure",
+      "size": {
+        "width": 379.0,
+        "height": 76.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

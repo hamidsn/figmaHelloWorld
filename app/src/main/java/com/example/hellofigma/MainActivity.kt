@@ -33,6 +33,9 @@ import androidx.compose.ui.unit.dp
 import com.example.hellofigma.hellocard.Design
 import com.example.hellofigma.ui.theme.HelloFigmaTheme
 import com.example.hellofigma.hellocard.HelloCard
+import com.example.hellofigma.imageleft.ImageLeft
+import com.example.hellofigma.imageleft.Platform
+import com.example.hellofigma.imageleft.State
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -42,16 +45,14 @@ class MainActivity : ComponentActivity() {
                 // A surface container using the 'background' color from the theme
                 Surface(color = MaterialTheme.colors.background) {
                  HelloCard(title = "Testing",
-                      description = "3rd variant. Some work in progress...",
+                      description = "3rd variant is here",
                   design = Design.ImageTitleMessage,
                   onDoubleTap = {Toast.makeText(baseContext, "Double clicked" , Toast.LENGTH_SHORT).show()})
                 }
-/*                 Spacer(modifier = Modifier.size(12.dp))
+                /* Spacer(modifier = Modifier.size(12.dp))*/
 
-                HelloCard(title = "Testing",
-                    description = "3rd variant. Some work in progress...",
-                    design = Design.ImageOnly,
-                    onDoubleTap = {Toast.makeText(baseContext, "Double clicked" , Toast.LENGTH_SHORT).show()})*/
+                ImageLeft(platform = Platform.Android, state = State.PartialLoad)
+              //  ImageLeft(platform = Platform.Android, state = State.Normal)
             }
 
         }
